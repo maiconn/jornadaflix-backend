@@ -16,7 +16,7 @@ public class TesteBD {
             ResultSet result = statement.executeQuery(sql);
 
             while (result.next()) {
-                System.out.println(result.getLong("id_usuario"));
+                System.out.println(result.getLong("id_usuarios"));
                 System.out.println(result.getString("nome"));
             }
             connection.close();
